@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 14px;
+            }
+        }
+        &__contacts {
+            margin-top: 5px;
+            font-size: 15px;
+            a {
+                padding: 5px 0;
+            }
+        }
+    }
+}
