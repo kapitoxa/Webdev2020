@@ -1,0 +1,11 @@
+@media (max-width: 575px) {
+    .footer {
+        &__info {
+            padding: 30px 18px;
+            width: 100%;
+        }
+        &__addr {
+            line-height: 30px;
+        }
+    }
+}
