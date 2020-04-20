@@ -1,0 +1,18 @@
+@media (max-width: 1094px) {
+    .carousel {
+        .prev, .next {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .carousel {
+        &__inner {
+            width: 70%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
