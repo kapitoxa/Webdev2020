@@ -1,0 +1,10 @@
+@media (max-width: 477px) {
+    .modal {
+        padding: 38px 10px 40px 10px;
+        width: 100%;
+        &__close {
+            top: 5px;
+            right: 5px;
+        }
+    }
+}

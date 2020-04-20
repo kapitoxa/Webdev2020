@@ -1,0 +1,37 @@
+@import "base/variables";
+@import "base/animation";
+* {
+    font-family: "Museo Sans Cyrl", sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 946px;
+    margin: 0 auto;
+}
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/button";
+@import "blocks/advantage";
+@import "blocks/title";
+@import "blocks/consultation";
+@import "blocks/form";
+@import "blocks/carousel";
+@import "blocks/_catalog";
+@import "blocks/feed";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+
+@import "media/style_media";
+@import "media/promo_media";
+@import "media/button_media";
+@import "media/header_media";
+@import "media/advantage_media";
+@import "media/title_media";
+@import "media/consultation_media";
+@import "media/form_media";
+@import "media/carousel_media";
+@import "media/catalog_media";
+@import "media/feed_media";
+@import "media/footer_media";
+@import "media/modal_media";
